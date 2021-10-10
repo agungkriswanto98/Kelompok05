@@ -1,0 +1,3 @@
+Limas
+limassegitiga
+limassegiempat
