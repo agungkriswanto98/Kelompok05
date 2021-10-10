@@ -8,19 +8,19 @@ class Main {
     System.out.println("Volume Balok           : 2 x (p.l + l.t + p.t)");
 
      System.out.println("Masukkan nilai sisi : ");
-     int sisi = bangunRuang.nextInt();
+     double sisi = bangunRuang.nextInt();
 
     System.out.println("Luas Permukaan Kubus  : " + 6 * (sisi*sisi));
     System.out.println("Volume Kubus : " + (sisi * sisi * sisi));
 
       System.out.println("Masukkan nilai panjang : ");
-     int panjang = bangunRuang.nextInt();
+     double panjang = bangunRuang.nextInt();
 
       System.out.println("Masukkan nilai lebar : ");
-     int lebar = bangunRuang.nextInt();
+     double lebar = bangunRuang.nextInt();
 
       System.out.println("Masukkan nilai tinggi : ");
-     int tinggi = bangunRuang.nextInt();
+     double tinggi = bangunRuang.nextInt();
 
      
     System.out.println("Luas Permukaan Balok  : " + panjang * lebar * tinggi);
